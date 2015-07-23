@@ -1,3 +1,5 @@
+## all 'alt' can be replaced to 'command' in mac env.
+
 Contrl short-cut of keyboard
 ctrl + p ==  cmmand palette
 	-- 1. first u can type in string like 'javascript' to choose adopting javascript syntax
@@ -22,17 +24,21 @@ shift + F11 == change to the full-screen mode of editing
     			"scroll_past_end": false  //Scroll Bar的顯示是否超過文件的結尾
 			}
 
+ctrl + shift + M == 選取對應括號內的多行文字(ex: {},[])
+
+ctrl + j == 合併多行成一行
+
+ctrl + d == 選取輸入點所在文字 
+	-- 連續按 可以選取  
+
+ctrl + l == 選取多行
+	-- 再用 ctrl + shift + 上/下  : 可以移動整排
+
 ctrl + r == finding function tha already be definde in ur doc
 
 ctrl + g == finding the line number u would like to locate
 
 ctrl + ` == open the python command window
-
-ctrl + l == 選取多行
-	-- 再用 ctrl + shift + 上/下  : 可以移動整排
-
-ctrl + d == 選取輸入點所在文字 
-	-- 連續按 可以選取  
 
 
 Package related : 
@@ -67,6 +73,3 @@ With the installation of 'package control',We can manage/install packages by it
 		-- select several lines of code 
 				-- ctrl + L 
 		-- ctrl + alt + a
-
-
-

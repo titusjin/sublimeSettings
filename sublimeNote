@@ -1,0 +1,72 @@
+Contrl short-cut of keyboard
+ctrl + p ==  cmmand palette
+	-- 1. first u can type in string like 'javascript' to choose adopting javascript syntax
+	-- 2. 
+
+ctrl + tab/shift-tab == change the file we already opened
+	-- just like switch tab in Chrome browser
+
+ctrl + p == open files in ur folder/project
+
+shift + F11 == change to the full-screen mode of editing
+	-- the view of this mode can be setting by opening
+		1. Preferences --> settings-More --> Distraction 
+		2. the above will open file named : Distraction Free.sublime-settings
+		3. type : 
+			{
+ 		   		"line_numbers": true,      //是否顯示行號
+    			"gutter": false,   //文件左邊是否顯示裝訂邊
+    			"draw_centered": true,      //是否置中顯示
+    			"wrap_width": 140,          //每一行顯示的寬度(以字元計算)
+    			"word_wrap": true,         //是否自動換行
+    			"scroll_past_end": false  //Scroll Bar的顯示是否超過文件的結尾
+			}
+
+ctrl + r == finding function tha already be definde in ur doc
+
+ctrl + g == finding the line number u would like to locate
+
+ctrl + ` == open the python command window
+
+ctrl + l == 選取多行
+	-- 再用 ctrl + shift + 上/下  : 可以移動整排
+
+ctrl + d == 選取輸入點所在文字 
+	-- 連續按 可以選取  
+
+
+Package related : 
+1. package control : 
+		-- open python command window by ctrl + `
+		-- paste : import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'
+		-- restart sublime text2
+
+With the installation of 'package control',We can manage/install packages by it
+
+2. Themr package: 
+	-- open command palette
+	-- input 'install package'
+	-- input 'Themr'
+
+3. Soda-theme package: 
+	-- open command palette
+	-- input 'install package'
+	-- input 'Theme Soda'
+
+4. IMESupport package(中文字輸入支援): 
+	-- open command palette
+	-- input 'install package'
+	-- input 'IMESupport'
+
+5. Alignment package(程式碼對齊)":
+	-- open command palette
+	-- input 'install package'
+	-- input 'Alignment'
+	-- restart sublime text2
+	usage : 
+		-- select several lines of code 
+				-- ctrl + L 
+		-- ctrl + alt + a
+
+
+

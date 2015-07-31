@@ -40,6 +40,8 @@ ctrl + g == finding the line number u would like to locate
 
 ctrl + ` == open the python command window
 
+ctrl + shift + / == 多行注釋
+
 
 Package related : 
 1. package control : 
